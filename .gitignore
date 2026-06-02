@@ -1,0 +1,39 @@
+# Data
+datasets/
+data/
+*.csv
+!experiments/results.csv
+!experiments/predictions.csv
+
+# Generated predictions and submissions
+predictions/
+submissions/
+submission*.csv
+predictions*.csv
+
+# Model artifacts
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.cbm
+*.model
+*.bst
+
+# Caches and temporary outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+tmp/
+temp/
+outputs/
+catboost_info/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Keep tracked experiment summaries
+!BEST_MODEL.md
